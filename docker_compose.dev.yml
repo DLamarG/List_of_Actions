@@ -3,9 +3,9 @@
 # the images locally
 #########################################
 
-version: "1"
+version: "3"
 services:
-  recipe-api:
+  task-api:
     build: ./backend_api
     ports:
       - "8000:8000"
