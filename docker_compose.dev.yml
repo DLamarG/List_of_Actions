@@ -17,9 +17,9 @@ services:
       - DATABASE_PASSWORD=$POSTGRES_PASSWORD
 
     depends_on:
-      - recipe_db
+      - task_db
   
-  recipe_db:
+  task_db:
     image: postgres:15
     volumes:
       - postgres_data:/var/lib/postgresql/data/
