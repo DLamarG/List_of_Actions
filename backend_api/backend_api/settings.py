@@ -80,7 +80,7 @@ DATABASES = {
     "NAME": "task_app_db",
     "USER": "postgres",
     "PASSWORD": "postgres",
-    "HOST": "task_db",
+    "HOST": "db",
     "PORT": 5432,
     }
 }

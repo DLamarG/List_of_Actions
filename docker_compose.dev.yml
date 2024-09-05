@@ -11,9 +11,9 @@ services:
       - "8000:8000"
 
     depends_on:
-      - task_db
+      - db
   
-  task_db:
+  db:
     image: postgres:15
     volumes:
       - postgres_data:/var/lib/postgresql/data/
